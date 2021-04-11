@@ -18,6 +18,11 @@ h1{
 }
 
 p{
-    font-size:25px;
+    font-size:1.5rem;
+    color: #828282;
+}
+
+ul li{
+    font-size:1.1rem;
     color: #828282;
 }
