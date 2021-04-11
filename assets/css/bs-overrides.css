@@ -3,7 +3,6 @@
     padding: 10px 15px;
     border: none;
     border-radius: 0;
-    margin-right: 35px;
 }
 
 .btn-secondary{
@@ -20,6 +19,5 @@ h1{
 
 p{
     font-size:25px;
-    line-height: 50px;
     color: #828282;
 }
