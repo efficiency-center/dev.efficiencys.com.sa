@@ -1,0 +1,25 @@
+.btn-primary{
+    background-color: #083d53;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0;
+    margin-right: 35px;
+}
+
+.btn-secondary{
+    color: #6c757d;
+    border-color: #6c757d;
+    background: none;
+    border:none;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+p{
+    font-size:25px;
+    line-height: 50px;
+    color: #828282;
+}
