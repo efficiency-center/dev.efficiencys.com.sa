@@ -113,3 +113,11 @@ background-size: cover;
 .footer{
 background-color: #333;
 }
+
+.contact-box  {
+    background-color: #333;
+}
+
+.box-content p {
+    color: white;
+}
