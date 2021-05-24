@@ -9,7 +9,6 @@
         <!-- Preloads -->
         <link rel="preload" href="assets/css/styles.css" as="style">
         <link rel="preload" href="assets/css/bs-overrides.css" as="style">
-        <link rel="preload" href="app.js" as="script"><!-- What is this line for ?-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -37,9 +36,9 @@
                 <nav class="navbar navbar-light navbar-expand-md d-flex flex-wrap align-items-md-center justify-content-md-center justify-content-md-between mb-md-4">
                     <ul class="flex-column flex-md-row order-1 order-md-1 collapse navbarNav navbar-collapse nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
-                        <li><a href="pages/aboutUs.html" class="nav-link px-2 link-dark">About</a></li>
                         <li><a href="#partners" class="nav-link px-2 link-dark">Partners</a></li>
-                        <li><a href="pages/contact.html" class="nav-link px-2 link-dark">Contact</a></li>
+                        <li><a href="#contactus" class="nav-link px-2 link-dark">Contact</a></li>
+                        <li><a href="book-a-tour.html" class="nav-link px-2 link-dark">Book a tour</a></li>
                     </ul>
 
                     <a href="index.html" class="order-3 order-md-2 d-flex align-items-md-center justify-content-md-center col-6 col-md-3 mb-md-0 text-dark text-decoration-none mx-md-auto">
@@ -87,7 +86,7 @@
                         <h1 class="display-5 fw-bold lh-1 mb-3">Your hike to PEAK!</h1>
                         <p class="lead py-2 py-md-5 fs-1">Modern fully-serviced office spaces for productive time to be spent</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a href="pages/contact.html" class="btn btn-primary btn-lg px-4 me-md-2">Book a Tour</a>
+                            <a href="book-a-tour.html" class="btn btn-primary btn-lg px-4 me-md-2">Book a Tour</a>
                             <a href="pages/aboutUs.html" class="btn btn-secondary btn-lg px-4">Learn More</a>
                         </div>
                     </div>
@@ -111,7 +110,7 @@
                         <h1>About Us</h1>
                         <p>A center that will offers you modern fully-equipped shared and individual office spaces that suit all businesses. We help you be efficient by providing your business with the proper place to get things done</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a href="pages/aboutUs.html" class="btn btn-outline-dark btn-lg text-left">Learn More</a>
+                            <a href="book-a-tour.html" class="btn btn-outline-dark btn-lg text-left">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +118,7 @@
         </section>
 
         <!-- _________________________________________ Services SECTION ___________________________ -->
-        <section id="services" class="services  py-2 py-md-5">
+        <section id="services" class="services  py-2 py-md-5 my-5">
             <div class="container">
                 <div class="title text-center">
                     <img src="assets/imgs/logos/mobileLogo.png" loading="lazy"  alt="" height="100">
@@ -132,7 +131,7 @@
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                           <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Individual Offices</h2>
                           <p>Modern, fully serviced individual offices are offering you a more private setting with a breathtaking view</p>
-                          <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                          <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                         </div>
                       </div>
                     </div>
@@ -142,27 +141,27 @@
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Meeting Room</h2>
                             <p>A fully prepared meeting room with screens, a sound system, and high-speed internet to accommodate seven people</p>
-                            <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                            <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                           </div>
                         </div>
                       </div>
 
                       <div class="col mb-5">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 border-0" style="background-image: url('assets/imgs/services/MO.jpg');">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 border-0" style="background-image: url('assets/imgs/services/CR.jpg');">
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Conference Room</h2>
                             <p>A fully prepared conference room that offers a spectacular view and accommodates 30 people.</p>
-                            <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                            <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                           </div>
                         </div>
                       </div>
 
                       <div class="col mb-5">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 border-0" style="background-image: url('assets/imgs/services/MO.jpg');">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 border-0" style="background-image: url('assets/imgs/services/workstation.jpg');">
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Shared Open Space Offices</h2>
                             <p>Fully prepared open space offices for you and your team to PEAK!</p>
-                            <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                            <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                           </div>
                         </div>
                       </div>
@@ -172,7 +171,7 @@
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Seating Area</h2>
                             <p>A fully serviced seating area for your clients’ comfort!</p>
-                            <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                            <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                           </div>
                         </div>
                       </div>
@@ -182,7 +181,7 @@
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Dedicated Open Space Offices</h2>
                             <p>Dedicated open space offices allow you to have a more private setting!</p>
-                            <a type="button" class="btn btn-light" href="pages/contact.html">Book now</a>
+                            <a type="button" class="btn btn-light" href="book-a-tour.html">Book now</a>
                           </div>
                         </div>
                       </div>
@@ -206,19 +205,19 @@
 
                     <div class="col mb-5">
                       <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                        <span class="number p-3">01</span>
+                        <span class="number p-4">01</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-map-marker-alt shake-little"></i> Special Location</h4>
-                            <p>A breathtaking view on the arabian gulf & khobar tower with the top cafes and restaurans of the area</p>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-map-marker-alt d-block py-3"></i> Special Location</h4>
+                            <p>A breathtaking view on the arabian gulf & khobar tower</p>
                         </div>
                       </div>
                     </div>
 
                     <div class="col mb-5">
                         <div class="card card-cover h-100 overflow-hidden rounded-5 border-2">
-                          <span class="number p-3">02</span>
+                          <span class="number p-4">02</span>
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="far fa-clock shake-little"></i> Reception</h4>
+                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="far fa-clock d-block py-3"></i> Reception</h4>
                               <p>24 / 7 Access</p>
                           </div>
                         </div>
@@ -226,9 +225,9 @@
 
                     <div class="col mb-5">
                         <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                          <span class="number p-3">03</span>
+                          <span class="number p-4">03</span>
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-desktop shake-little"></i> Furnished Offices</h4>
+                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-desktop d-block py-3"></i> Furnished Offices</h4>
                               <p>Prepared with high quality furniture</p>
                           </div>
                         </div>
@@ -236,9 +235,9 @@
 
                     <div class="col mb-5">
                         <div class="card card-cover h-100 overflow-hidden rounded-5 border-2">
-                          <span class="number p-3">04</span>
+                          <span class="number p-4">04</span>
                           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-mug-hot shake-little"></i> Mini Kitchen</h4>
+                              <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-mug-hot d-block py-3"></i> Mini Kitchen</h4>
                               <p>Snacks & refreshments to get through your day</p>
                           </div>
                         </div>
@@ -246,9 +245,9 @@
 
                     <div class="col mb-5">
                     <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                        <span class="number p-3">05</span>
+                        <span class="number p-4">05</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-percent shake-little"></i> Special Offers</h4>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-percent d-block py-3"></i> Special Offers</h4>
                             <p>Get unlimited offers from our success partners once you get your office!</p>
                         </div>
                     </div>
@@ -256,9 +255,9 @@
 
                     <div class="col mb-5">
                     <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                        <span class="number p-3">06</span>
+                        <span class="number p-4">06</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-wifi shake-little"></i> WIFI & PRINTERS</h4>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-wifi d-block py-3"></i> WIFI & PRINTERS</h4>
                             <p>Access to high speed internet</p>
                         </div>
                     </div>
@@ -266,9 +265,9 @@
 
                     <div class="col mb-5">
                     <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                        <span class="number p-3">07</span>
+                        <span class="number p-4">07</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-couch shake-little"></i> SEATING AREA</h4>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-couch d-block py-3"></i> SEATING AREA</h4>
                             <p>A fully serviced seating area for your clients’ comfort!</p>
                         </div>
                     </div>
@@ -276,9 +275,9 @@
 
                     <div class="col mb-5">
                     <div class="card card-cover h-100 overflow-hidden rounded-5  border-2">
-                        <span class="number p-3">08</span>
+                        <span class="number p-4">08</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-camera shake-little"></i> STUDIO</h4>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-camera d-block py-3"></i> STUDIO</h4>
                             <p>For artworks and Photography sessions</p>
                         </div>
                     </div>
@@ -286,9 +285,9 @@
 
                     <div class="col mb-5">
                     <div class="card card-cover h-100 overflow-hidden rounded-5 border-2">
-                        <span class="number p-3">09</span>
+                        <span class="number p-4">09</span>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-map-marker-alt shake-little"></i> SMOKING AREA</h4>
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><i class="fas fa-smoking d-block py-3"></i> SMOKING AREA</h4>
                             <p>an open area with a magnificiant view</p>
                         </div>
                     </div>
@@ -316,6 +315,7 @@
                     <div class="col"><img src="assets/imgs/logos/partners/b.png" class="d-block mx-lg-auto img-fluid"></div>
                     <div class="col"><img src="assets/imgs/logos/partners/sdfgsf.png" class="d-block mx-lg-auto img-fluid"></div>
                     <div class="col"><img src="assets/imgs/logos/partners/d.png" class="d-block mx-lg-auto img-fluid"></div>
+                    <div class="col"><img src="assets/imgs/logos/partners/ff.png" class="d-block mx-lg-auto img-fluid"></div>
                 </div>
             </div>
             
@@ -323,7 +323,7 @@
 
         <!-- _________________________________________ Form SECTION ___________________________ -->
         <section id="contactus" class="contact py-2 py-md-5">
-            <div class="container">
+            <div class="container py-2 py-md-5">
                 <div class="title text-center">
                     <img src="assets/imgs/logos/mobileLogo.png" loading="lazy"  alt="" height="100">
                     <h1>Contact Us</h1>
@@ -344,7 +344,7 @@
                         <div class="mb-3">
                             <textarea class="form-control p-3" id="message" name="message" placeholder="Message"></textarea>
                           </div>
-                        <div id="button" class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button></div>
+                        <div id="button" class="d-grid gap-2 py-5"><button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button></div>
                       </form>
 
                 </div>
@@ -375,11 +375,11 @@
                     <div class="col col-lg-3 mb-4 mb-md-0">
                         <h5>Important Links</h5>
                         <ul class="list-unstyled lh-lg">
-                            <li><a class="link-light text-decoration-none" href="pages/terms_and_condition.html">Terms and Conditions</a></li>
-                            <li><a class="link-light text-decoration-none" href="pages/Privacy.html">Privacy policy</a></li>
-                            <li><a class="link-light text-decoration-none" href="media/PDF/Efficiency Center Cornich Park ENGLISH.pdf" target="_blank">Our Profile</a></li>
-                            <li><a class="link-light text-decoration-none" href="pages/FAQ.html">FAQs</a></li>
-                            <li><a class="link-light text-decoration-none" href="pages/jobs.html">Jobs</a></li>
+                            <li><a class="link-light text-decoration-none" href="terms_and_condition.html">Terms and Conditions</a></li>
+                            <li><a class="link-light text-decoration-none" href="Privacy.html">Privacy policy</a></li>
+                            <li><a class="link-light text-decoration-none" href="assets/files/pdf/Efficiency Center Cornich Park ENGLISH.pdf" target="_blank">Our Profile</a></li>
+                            <li><a class="link-light text-decoration-none" href="FAQ.html">FAQs</a></li>
+                            <li><a class="link-light text-decoration-none" href="jobs.html">Jobs</a></li>
                         </ul>
                     </div>
 
