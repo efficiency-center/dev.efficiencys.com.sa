@@ -90,7 +90,7 @@
             </div>
 
             <div class="form">
-                <form action="https://formsubmit.co/tthghost@gmail.com" enctype="multipart/form-data" method="POST">
+                <form action="https://formsubmit.co/contact@efficiencys.com.sa" enctype="multipart/form-data" method="POST" onsubmit="return chkFileSize()">
                     <div class="mb-3">
                         <input type="text" class="form-control p-3" name="name" id="name" placeholder="Full name" required>
                     </div>
@@ -121,7 +121,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="CV" class="form-label">Upload company profile</label>
-                        <input class="form-control form-control-lg" name="CV" accept="image/*,.doc,.pdf" id="CV" type="file">
+                        <input class="mb-2 form-control form-control-lg" id='fileinput' name="CV" accept="image/*,.doc,.pdf" id="CV" type="file">
+                        <span id="errorspan" class="text-danger"></span>
                     </div>
                     <input type="hidden" name="_captcha" value="false">
                     <div id="button" class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button></div>
@@ -176,7 +177,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-    <script src="../app.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
